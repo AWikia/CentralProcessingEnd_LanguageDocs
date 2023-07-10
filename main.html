@@ -1,0 +1,2464 @@
+﻿<html class="main">
+	<body onfocus="CheckTheme()" page="processes" tab="CPU" onblur="CheckTheme()"  class="documentation" style="overflow:hidden;" id="Handler" onclick="">
+	<div style="position:absolute; z-index:-1;">
+		<div class="cpe-system-colors dcm-standard">
+			<span class="fc-canvas" style="color:window; color:canvas;"></span>
+			<span class="fc-canvastext" style="color:windowtext; color:canvastext;"></span>
+			<span class="fc-linktext" style="color:highlight; color:linktext;"></span>
+			<span class="fc-visitedtext" style="color:highlight; color:visitedtext;"></span>
+			<span class="fc-activetext" style="color:highlight; color:activetext;"></span>
+			<span class="fc-buttonface" style="color:buttonface;"></span>
+			<span class="fc-buttontext" style="color:buttontext;"></span>
+			<span class="fc-buttonborder" style="color:buttontext; color:buttonborder;"></span>
+			<span class="fc-field" style="color:window; color:canvas; color:field;"></span>
+			<span class="fc-fieldtext" style="color:windowtext; color:canvastext; color:fieldtext;"></span>
+			<span class="fc-highlight" style="color:highlight;"></span>
+			<span class="fc-highlighttext" style="color:highlighttext;"></span>
+			<span class="fc-selecteditem" style="color:highlight; color:selecteditem;"></span>
+			<span class="fc-selecteditemtext" style="color:highlighttext; color:selecteditemtext;"></span>
+			<span class="fc-mark" style="color:yellow; color:mark;"></span>
+			<span class="fc-marktext" style="color:black; color:marktext;"></span>
+			<span class="fc-graytext" style="color:graytext;"></span>
+			<span class="fc-accentcolor" style="color:highlight;color:accentcolor;"></span>
+			<span class="fc-accentcolortext" style="color:highlighttext; color:accentcolortext;"></span>
+		</div>
+		<div class="cpe-system-colors dcm-reversi">
+			<span class="fc-canvas" style="color:windowtext; color:canvastext;"></span>
+			<span class="fc-canvastext" style="color:window; color:canvas;"></span>
+			<span class="fc-linktext" style="color:highlight;"></span>
+			<span class="fc-visitedtext" style="color:highlight;"></span>
+			<span class="fc-activetext" style="color:highlight;"></span>
+			<span class="fc-buttonface" style="color:buttontext;"></span>
+			<span class="fc-buttontext" style="color:buttonface;"></span>
+			<span class="fc-buttonborder" style="color:buttonface"></span>
+			<span class="fc-field" style="color:windowtext; color:canvastext; color:fieldtext;"></span>
+			<span class="fc-fieldtext" style="color:window; color:canvas; color:field;"></span>
+			<span class="fc-highlight" style="color:highlight; color:linktext;"></span>
+			<span class="fc-highlighttext" style="color:canvastext;"></span>
+			<span class="fc-selecteditem" style="color:highlight; color:selecteditem;"></span>
+			<span class="fc-selecteditemtext" style="color:highlighttext; color:selecteditemtext;"></span>
+			<span class="fc-mark" style="color:yellow; color:mark;"></span>
+			<span class="fc-marktext" style="color:black; color:marktext;"></span>
+			<span class="fc-graytext" style="color:graytext;"></span>
+			<span class="fc-accentcolor" style="color:highlight;color:accentcolor;"></span>
+			<span class="fc-accentcolortext" style="color:highlighttext; color:accentcolortext;"></span>
+		</div>
+		<!-- Theming (Standard Color Scheme) -->
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-A"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-B"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-C"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-D"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-E"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-F"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-G"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-light theme-H"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-A"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-B"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-C"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-D"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-E"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-F"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-G"></div>
+		<div class="cpe-theming visualcolors-standard colorscheme-dark theme-H"></div>
+
+		<!-- Theming 3 (DCM Color Scheme) -->
+		<div class="cpe-theming visualcolors-nocolormanagement"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-standard"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-lite"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-general"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-basic"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-simple"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-classic"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-contrast"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-retro"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-custom_1"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-custom_2"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-custom_3"></div>
+		<div class="cpe-theming visualcolors-nocolormanagement dcmmode-custom_4"></div>
+	</div>
+	<div tabindex="-1" class="focus-overlay" style="pointer-events:none;"></div>
+	<div id="LunaLevit" style=" pointer-events: none; position: fixed; z-index: -2; width: 100%; height: 100%;">
+		<div class="invertion-on" style=" pointer-events: none; position: fixed; z-index: -2; width: 100%; height: 100%;">
+			<div id="LunaLevit3" class="desktop-background fandom-community-header__background" style="position:absolute; pointer-events:none;" id="desktop-background">
+			</div>
+		</div>
+	</div>
+	<div class="top-gap" style="pointer-events:none;"></div>
+		<container>
+			<div class="tabs-with-page">
+			<header class="tabs">
+				<div class="lunalevit"></div>
+				<div class="items">
+					<a class="buttons has-icon" onclick="Tab0()">Buttons</a>
+					<a class="buttongroups has-icon" onclick="Tab1()">Button Groups</a>
+					<a class="dropdowns has-icon" onclick="Tab2()">Dropdowns</a>
+					<a class="textboxes has-icon" onclick="Tab3()">Text Boxes</a>
+					<a class="cpetabs has-icon" onclick="Tab4()">Tabs</a>
+					<a class="floatingbuttons has-icon" onclick="Tab5()">Floating Buttons</a>
+					<a class="banners has-icon" onclick="Tab6()">Banner Notifications</a>
+					<a class="toggleinputs has-icon" onclick="Tab7()">Toggle Inputs</a>
+				</div>
+				<div class="separator"></div>
+				<a class="settings has-icon" onclick="Tab8()">Settings</a>
+			</header>
+			<!--Processes-->
+			<main class="buttons">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Buttons</h2>
+						</header>
+						<article>
+
+		  In CPE, all buttons are made out of round corners and should not contain any gradient at all. We use 3 types. Primary, Secondary and Text
+		  <h3>Primary Buttons</h3>
+		  To Inject a primary button, use an element and put the <code>cpe-button</code> class in it. Primary buttons take advantage of Highlight Background Color:
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button"><span>Primary Button</span></button>
+			  <button class="cpe-button">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <h3>Secondary Buttons</h3>
+		  To Inject a secondary button, use an element and put the <code>cpe-button</code> and <code>is-secondary</code> class in it. Secondary buttons take advantage of Hyperlink Background Color:
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <h3>Hybrid Secondary Buttons</h3>
+		  To Inject a secondary button that becomes primary when focused, put the <code>is-primary-when-selected</code> class in it alongside <code>cpe-button</code> and <code>is-secondary</code> classes.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <h3>Tertiary Buttons</h3>
+		  To Inject a tertiary button, use an element and put the <code>cpe-button</code> and <code>is-tertiary</code> class in it. Tertiary buttons take advantage of Hyperlink Background Color:
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <h3>Frameless Buttons</h3>
+		  To Inject a Frameless button, use an element and put the <code>cpe-button</code> and <code>is-text</code> class in it. Frameless buttons take advantage of Anchor Background Color:
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Unaccented Color</h3>
+		  To Inject a button that takes advantage of Inactive Text and Canvas Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-unaccented</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-unaccented"><span>Primary Button</span></button>
+			  <button class="cpe-button is-unaccented">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-unaccented">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-unaccented"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-unaccented">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-unaccented">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-unaccented is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-unaccented is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-unaccented is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-unaccented"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-unaccented">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-unaccented">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-unaccented"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-unaccented">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-unaccented">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Alternate Color</h3>
+		  To Inject a button that takes advantage of Active Title and Active Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-alternate</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-alternate"><span>Primary Button</span></button>
+			  <button class="cpe-button is-alternate">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-alternate">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-alternate"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-alternate">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-alternate">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-alternate is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-alternate is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-alternate is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-alternate"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-alternate">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-alternate">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-alternate"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-alternate">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-alternate">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Alert Color</h3>
+		  To Inject a button that takes advantage of Alert Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-alert-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-alert-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-alert-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-alert-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-alert-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-alert-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-alert-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-alert-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-alert-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-alert-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-alert-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-alert-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-alert-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-alert-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-alert-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-alert-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Pause Color</h3>
+		  To Inject a button that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-pause-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-pause-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-pause-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-pause-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-pause-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-pause-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-pause-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-pause-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-pause-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-pause-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-pause-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-pause-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-pause-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-pause-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-pause-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-pause-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Warning Color</h3>
+		  To Inject a button that takes advantage of Warning Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-warning-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-warning-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-warning-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-warning-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-warning-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-warning-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-warning-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-warning-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-warning-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-warning-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-warning-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-warning-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-warning-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-warning-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-warning-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-warning-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Success Color</h3>
+		  To Inject a button that takes advantage of Success Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-success-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-success-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-success-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-success-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-success-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-success-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-success-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-success-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-success-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-success-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-success-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-success-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-success-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-success-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-success-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-success-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Progress Color</h3>
+		  To Inject a button that takes advantage of Progress Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-progress-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-progress-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-progress-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-progress-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-progress-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-progress-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-progress-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-progress-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-progress-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-progress-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-progress-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-progress-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-progress-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-progress-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-progress-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-progress-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  <h3>Message Color</h3>
+		  To Inject a button that takes advantage of Message Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-button</code> and <code>is-message-color</code> classes in it. Opitionally, the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> classes may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-message-color"><span>Primary Button</span></button>
+			  <button class="cpe-button is-message-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Primary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-message-color">
+			  <span>Primary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-message-color"><span>Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-message-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-message-color">
+			  <span>Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-secondary is-message-color is-primary-when-selected"><span>Hybrid Secondary Button</span></button>
+			  <button class="cpe-button is-secondary is-message-color is-primary-when-selected">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Hybrid Secondary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-secondary is-message-color is-primary-when-selected">
+			  <span>Hybrid Secondary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-tertiary is-message-color"><span>Tertiary Button</span></button>
+			  <button class="cpe-button is-tertiary is-message-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Tertiary Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-tertiary is-message-color">
+			  <span>Tertiary Button</span></a>
+		  </div>
+		  <div style="margin:10px 0 0;">
+			  <button class="cpe-button is-text is-message-color"><span>Frameless Button</span></button>
+			  <button class="cpe-button is-text is-message-color">
+			  <span class="cpe-icon cpe-icon-small material-icons">star</span>
+			  <span>Frameless Button</span></button>
+			  <a href="https://github.com/AWikia" class="cpe-button is-text is-message-color">
+			  <span>Frameless Button</span></a>
+		  </div>
+		  
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Button Groups-->
+			<main class="buttongroups">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Button Groups</h2>
+						</header>
+						<article>
+	You can make a group of buttons as well. You can mix colors like having altenate and regular button color but not types (Having text and primary button is prohibited althought button preview in theme designer does it)
+		<h3>Regular</h3>
+		You add <code>cpe-button-group</code> and series of <code>cpe-button</code>
+			<div style="margin:10px 0 0">
+				<div class="cpe-button-group">
+					<button class="cpe-button">
+						1
+					</button>
+					<button class="cpe-button">
+						2
+					</button>
+					<button class="cpe-button">
+						3
+					</button>
+					<button class="cpe-button">
+						4
+					</button>
+					<button class="cpe-button">
+						5
+					</button>
+				</div>
+				<div class="cpe-button-group">
+					<button class="cpe-button is-secondary">
+						6
+					</button>
+					<button class="cpe-button is-secondary">
+						7
+					</button>
+					<button class="cpe-button is-secondary">
+						8
+					</button>
+					<button class="cpe-button is-secondary">
+						9
+					</button>
+					<button class="cpe-button is-secondary">
+						10
+					</button>
+				</div>
+				<div class="cpe-button-group">
+					<button class="cpe-button is-unaccented">
+						11
+					</button>
+					<button class="cpe-button is-unaccented">
+						12
+					</button>
+					<button class="cpe-button is-unaccented">
+						13
+					</button>
+					<button class="cpe-button is-unaccented">
+						14
+					</button>
+					<button class="cpe-button is-unaccented">
+						15
+					</button>
+				</div>
+				<div class="cpe-button-group">
+					<button class="cpe-button is-secondary is-unaccented">
+						16
+					</button>
+					<button class="cpe-button is-secondary is-unaccented">
+						17
+					</button>
+					<button class="cpe-button is-secondary is-unaccented">
+						18
+					</button>
+					<button class="cpe-button is-secondary is-unaccented">
+						19
+					</button>
+					<button class="cpe-button is-secondary is-unaccented">
+						20
+					</button>
+				</div>
+				<div class="cpe-button-group">
+					<button class="cpe-button is-alternate">
+						21
+					</button>
+					<button class="cpe-button is-alternate">
+						22
+					</button>
+					<button class="cpe-button is-alternate">
+						23
+					</button>
+					<button class="cpe-button is-alternate">
+						24
+					</button>
+					<button class="cpe-button is-alternate">
+						25
+					</button>
+				</div>
+				<div class="cpe-button-group">
+					<button class="cpe-button is-secondary is-alternate">
+						26
+					</button>
+					<button class="cpe-button is-secondary is-alternate">
+						27
+					</button>
+					<button class="cpe-button is-secondary is-alternate">
+						28
+					</button>
+					<button class="cpe-button is-secondary is-alternate">
+						29
+					</button>
+					<button class="cpe-button is-secondary is-alternate">
+						30
+					</button>
+				</div>
+			</div>
+		<h3>Multiple Button Groups</h3>
+		It is also possible to have nested button groups. Just wrap all <code>cpe-button-group</code> elements into a <code>cpe-button-groups</code> as seen in the following example
+			<div style="margin:10px 0 0">
+				<div class="cpe-button-groups">
+					<div class="cpe-button-group">
+						<button class="cpe-button">
+							1
+						</button>
+						<button class="cpe-button">
+							2
+						</button>
+						<button class="cpe-button">
+							3
+						</button>
+						<button class="cpe-button">
+							4
+						</button>
+						<button class="cpe-button">
+							5
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary">
+							6
+						</button>
+						<button class="cpe-button is-secondary">
+							7
+						</button>
+						<button class="cpe-button is-secondary">
+							8
+						</button>
+						<button class="cpe-button is-secondary">
+							9
+						</button>
+						<button class="cpe-button is-secondary">
+							10
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-unaccented">
+							11
+						</button>
+						<button class="cpe-button is-unaccented">
+							12
+						</button>
+						<button class="cpe-button is-unaccented">
+							13
+						</button>
+						<button class="cpe-button is-unaccented">
+							14
+						</button>
+						<button class="cpe-button is-unaccented">
+							15
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-unaccented">
+							16
+						</button>
+						<button class="cpe-button is-secondary is-unaccented">
+							17
+						</button>
+						<button class="cpe-button is-secondary is-unaccented">
+							18
+						</button>
+						<button class="cpe-button is-secondary is-unaccented">
+							19
+						</button>
+						<button class="cpe-button is-secondary is-unaccented">
+							20
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-alternate">
+							21
+						</button>
+						<button class="cpe-button is-alternate">
+							22
+						</button>
+						<button class="cpe-button is-alternate">
+							23
+						</button>
+						<button class="cpe-button is-alternate">
+							24
+						</button>
+						<button class="cpe-button is-alternate">
+							25
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-alternate">
+							26
+						</button>
+						<button class="cpe-button is-secondary is-alternate">
+							27
+						</button>
+						<button class="cpe-button is-secondary is-alternate">
+							28
+						</button>
+						<button class="cpe-button is-secondary is-alternate">
+							29
+						</button>
+						<button class="cpe-button is-secondary is-alternate">
+							30
+						</button>
+					</div>
+				</div>
+				<div class="cpe-button-groups">
+					<div class="cpe-button-group">
+						<button class="cpe-button is-alert-color">
+							31
+						</button>
+						<button class="cpe-button is-alert-color">
+							32
+						</button>
+						<button class="cpe-button is-alert-color">
+							33
+						</button>
+						<button class="cpe-button is-alert-color">
+							34
+						</button>
+						<button class="cpe-button is-alert-color">
+							35
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-pause-color">
+							36
+						</button>
+						<button class="cpe-button is-pause-color">
+							37
+						</button>
+						<button class="cpe-button is-pause-color">
+							38
+						</button>
+						<button class="cpe-button is-pause-color">
+							39
+						</button>
+						<button class="cpe-button is-pause-color">
+							40
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-warning-color">
+							41
+						</button>
+						<button class="cpe-button is-warning-color">
+							42
+						</button>
+						<button class="cpe-button is-warning-color">
+							43
+						</button>
+						<button class="cpe-button is-warning-color">
+							44
+						</button>
+						<button class="cpe-button is-warning-color">
+							45
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-success-color">
+							46
+						</button>
+						<button class="cpe-button is-success-color">
+							47
+						</button>
+						<button class="cpe-button is-success-color">
+							48
+						</button>
+						<button class="cpe-button is-success-color">
+							49
+						</button>
+						<button class="cpe-button is-success-color">
+							50
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-progress-color">
+							51
+						</button>
+						<button class="cpe-button is-progress-color">
+							52
+						</button>
+						<button class="cpe-button is-progress-color">
+							53
+						</button>
+						<button class="cpe-button is-progress-color">
+							54
+						</button>
+						<button class="cpe-button is-progress-color">
+							55
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-message-color">
+							56
+						</button>
+						<button class="cpe-button is-message-color">
+							57
+						</button>
+						<button class="cpe-button is-message-color">
+							58
+						</button>
+						<button class="cpe-button is-message-color">
+							59
+						</button>
+						<button class="cpe-button is-message-color">
+							60
+						</button>
+					</div>
+				</div>
+				<div class="cpe-button-groups">
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-alert-color">
+							61
+						</button>
+						<button class="cpe-button is-secondary is-alert-color">
+							62
+						</button>
+						<button class="cpe-button is-secondary is-alert-color">
+							63
+						</button>
+						<button class="cpe-button is-secondary is-alert-color">
+							64
+						</button>
+						<button class="cpe-button is-secondary is-alert-color">
+							65
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-pause-color">
+							66
+						</button>
+						<button class="cpe-button is-secondary is-pause-color">
+							67
+						</button>
+						<button class="cpe-button is-secondary is-pause-color">
+							68
+						</button>
+						<button class="cpe-button is-secondary is-pause-color">
+							69
+						</button>
+						<button class="cpe-button is-secondary is-pause-color">
+							70
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-warning-color">
+							71
+						</button>
+						<button class="cpe-button is-secondary is-warning-color">
+							72
+						</button>
+						<button class="cpe-button is-secondary is-warning-color">
+							73
+						</button>
+						<button class="cpe-button is-secondary is-warning-color">
+							74
+						</button>
+						<button class="cpe-button is-secondary is-warning-color">
+							75
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-success-color">
+							76
+						</button>
+						<button class="cpe-button is-secondary is-success-color">
+							77
+						</button>
+						<button class="cpe-button is-secondary is-success-color">
+							78
+						</button>
+						<button class="cpe-button is-secondary is-success-color">
+							79
+						</button>
+						<button class="cpe-button is-secondary is-success-color">
+							80
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-progress-color">
+							81
+						</button>
+						<button class="cpe-button is-secondary is-progress-color">
+							82
+						</button>
+						<button class="cpe-button is-secondary is-progress-color">
+							83
+						</button>
+						<button class="cpe-button is-secondary is-progress-color">
+							84
+						</button>
+						<button class="cpe-button is-secondary is-progress-color">
+							85
+						</button>
+					</div>
+					<div class="cpe-button-group">
+						<button class="cpe-button is-secondary is-message-color">
+							86
+						</button>
+						<button class="cpe-button is-secondary is-message-color">
+							87
+						</button>
+						<button class="cpe-button is-secondary is-message-color">
+							88
+						</button>
+						<button class="cpe-button is-secondary is-message-color">
+							89
+						</button>
+						<button class="cpe-button is-secondary is-message-color">
+							90
+						</button>
+					</div>
+				</div>
+			</div>
+
+		<h3>Button Group with Dropdown</h3>
+			It is also possible to do button group with a dropdown
+			<div style="margin:10px 0 0">
+				<div class="cpe-button-group">
+				  <a class="is-squished cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>			
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>
+				<div class="cpe-button-group">
+				  <a class="is-squished is-unaccented cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>			
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-unaccented is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>
+				<div class="cpe-button-group">
+				  <a class="is-squished is-alternate cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>			
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-alternate is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>
+				<div class="cpe-button-group">
+				  <a class="is-squished is-secondary cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>				
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-secondary is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>			
+				<div class="cpe-button-group">
+				  <a class="is-squished is-secondary is-unaccented cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>				
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-secondary is-unaccented is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>
+				<div class="cpe-button-group">
+				  <a class="is-squished is-secondary is-alternate cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					edit
+				</span>			
+					<span>Edit</span>
+					</a>
+				  <div class="cpe-dropdown">				
+					<div class="cpe-button is-secondary is-alternate is-squished cpe-dropdown__toggle">	
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+					</div>
+					<div class="cpe-dropdown__content is-right-aligned is-not-scrollable">					
+					  <ul class="cpe-list is-linked">						
+						<li><a>Action</a></li>
+						<li><a>Another Action</a></li>
+					  </ul>
+					</div>
+				  </div>		
+				</div>
+			</div>
+		<h3>Button Group with Input Boxes</h3>
+			It is also possible to do button group with an input box
+			<div style="margin:10px 0 0">
+				<div class="cpe-button-group">
+				  <input class="cpe-input" placeholder="Search...">
+				  <button class="is-squished cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+				<div class="cpe-button-group">
+				  <input class="cpe-input is-unaccented" placeholder="Search...">
+				  <button class="is-squished is-unaccented cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+				<div class="cpe-button-group">
+				  <input class="cpe-input is-alternate" placeholder="Search...">
+				  <button class="is-squished is-alternate cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+
+				<div class="cpe-button-group">
+				  <input class="cpe-input is-secondary" placeholder="Search...">
+				  <button class="is-squished cpe-button is-secondary">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+				<div class="cpe-button-group">
+				  <input class="cpe-input is-unaccented is-secondary" placeholder="Search...">
+				  <button class="is-squished is-unaccented cpe-button is-secondary">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+				<div class="cpe-button-group">
+				  <input class="cpe-input is-alternate is-secondary" placeholder="Search...">
+				  <button class="is-squished is-alternate is-secondary cpe-button">				
+				<span class="cpe-icon cpe-icon-small material-icons">
+					search
+				</span>			
+					</button>
+				</div>
+
+			</div>
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Dropdowns-->
+			<main class="dropdowns">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Dropdowns</h2>
+						</header>
+						<article>
+		In CPE, all dropdowns are clickable (Hoverable for nested levels) and may contain shadows (Always with Shadow on Global Navigation)
+		<h3>Regular</h3>
+		You use a div with <code>cpe-dropdown</code> any container you want, preferably <code>cpe-button</code> with a dropdown chevron but other containers should work as well. Then use <code>cpe-dropdown__content</code> class on the div inside the dropdown container. You use a ul with the class <code>cpe-list</code>, preferably with the <code>is-linked</code> as well. Then you add li and an anchor tag. By putting the <code>is-flipped</code> class to the <code>cpe-dropdown</code> element, dropdown will open from the opposite direction as seen in some examples.
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown">
+				<div class="cpe-button"><span>Dropdown</span> 
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h3>No Scrolling</h3>
+			To force dropdown to appear all links at once, you may add inside the <code>cpe-dropdown__content</code> class the <code>is-not-scrollable</code> class.
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown">
+				<div class="cpe-button"><span>Non-Scrolling Dropdown</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-not-scrollable">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h3>Left and Right Aligments</h3>
+		To force dropdown to align to the left, add the <code>is-left-aligned</code> to the dropdown content class. The opposite can happen by using <code>is-right-aligned</code> class
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown">
+				<div class="cpe-button"><span>Left Aligned Dropdown</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-left-aligned">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="cpe-dropdown">
+				<div class="cpe-button is-unaccented"><span>Right Aligned Dropdown</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-right-aligned">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<h3>Landscape Menus</h3>
+		You can set the <code>cpe-orient</code> attribute to <code>land</code> in <code>cpe-dropdown</code> element to make dropdown open from the right. If that dropdown has the <code>is-flipped</code> class as well, it will open from the left
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown" cpe-orient="land">
+				<div class="cpe-button"><span>Landscape Dropdown</span> 
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="cpe-dropdown is-flipped" cpe-orient="land">
+				<div class="cpe-button is-unaccented"><span>Flipped Landscape Dropdown</span> 
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<h3>No Chevron Dropdown</h3>
+		You can add the <code>cpe-no-chevron</code> class to <code>cpe-dropdown</code> to make dropdown chevrons invisible
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown cpe-no-chevron">
+				<div class="cpe-button"><span>Non-Chevron present Dropdown</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h3>Shadows</h3>
+		You can place extra shadow without any border by adding either <code>has-shadow</code> or <code>has-dark-shadow</code> class to <code>cpe-dropdown</code> class
+
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown has-shadow">
+				<div class="cpe-button"><span>Dropdown with Shadow</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="cpe-dropdown has-dark-shadow">
+				<div class="cpe-button is-unaccented"><span>Dropdown with Thick Shadow</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a>Item J</a>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h3>2 levels</h3>
+		Dropdowns may have 2-levels. Inside a dropdown-link, you must use the <code>cpe-dropdown-level-2</code>. And another div with the class <code>cpe-dropdown-level-2__content</code>, then following the same procedures as the level 1 version minus this one. Note that the 2nd level menu is aligned to the top of 1st level dropdown by default, but it doesn"t work for shorter list so we need to add class <code>is-sticked-to-parent</code> to elements that contains shorter level 2 menu. Note that scrolling version and thick shadows are not recommended.
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown is-flipped">
+				<div class="cpe-button"><span>Advanced Dropdown</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-not-scrollable">
+					<ul class="cpe-list is-linked">
+						<li class="cpe-dropdown-level-2">
+							<a><span>Item A</span>
+								<span class="cpe-icon cpe-icon-tiny cpe-icon-large cpe-dropdown-chevron material-icons">
+									expand_more
+								</span>
+							</a>
+							<div class="cpe-dropdown-level-2__content">
+								<ul class="cpe-list is-linked">
+									<li>
+										<a>Item B</a>
+									</li>
+									<li>
+										<a>Item C</a>
+									</li>
+									<li>
+										<a>Item D</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a>Item E</a>
+						</li>
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li class="cpe-dropdown-level-2 is-sticked-to-parent">
+							<a><span>Item H</span>
+								<span class="cpe-icon cpe-icon-tiny cpe-icon-large cpe-dropdown-chevron material-icons">
+									expand_more
+								</span>
+							</a>
+							<div class="cpe-dropdown-level-2__content">
+								<ul class="cpe-list is-linked">
+									<li>
+										<a>Item I</a>
+									</li>
+									<li>
+										<a>Item J</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a>Item K</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h3>Buttons in Menu</h3>
+		It is also possible to have buttons inside the dropdown (Usually one as the last one)
+		<div style="margin:10px 0 0;">
+			<div class="cpe-dropdown is-flipped">
+				<div class="cpe-button"><span>Dropdown with Button</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-left-aligned">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item A</a>
+						</li>
+						<li>
+							<a>Item B</a>
+						</li>
+						<li>
+							<a>Item C</a>
+						</li>
+						<li>
+							<a>Item D</a>
+						</li>
+						<li>
+							<a class="cpe-button is-unaccented is-secondary">Item E</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="cpe-dropdown is-flipped">
+				<div class="cpe-button is-unaccented"><span>Dropdown with Primary Button</span>
+				<span class="cpe-icon cpe-icon-large cpe-icon-tiny cpe-dropdown__toggle-chevron material-icons">
+					arrow_drop_down
+				</span>
+				</div>
+				<div class="cpe-dropdown__content is-right-aligned">
+					<ul class="cpe-list is-linked">
+						<li>
+							<a>Item F</a>
+						</li>
+						<li>
+							<a>Item G</a>
+						</li>
+						<li>
+							<a>Item H</a>
+						</li>
+						<li>
+							<a>Item I</a>
+						</li>
+						<li>
+							<a class="cpe-button is-unaccented">Item J</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Text Boxes-->
+			<main class="textboxes">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Text Boxes</h2>
+						</header>
+						<article>
+		  In CPE, all text boxes are made out of round corners and should not contain any gradient at all. Two types exist, Primary and Secondary and both have a similar appearance but they have different colors
+		  <h3>Primary Text Inputs</h3>
+		  To Inject a primary text input, use an element and put the <code>cpe-input</code> class in it. Primary text boxes take advantage of Highlight Background Color:
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input" placeholder="Primary..."></input>
+		  </div>
+		  <h3>Secondary Text Inputs</h3>
+		  To Inject a secondary text input, use an element and put the <code>cpe-input</code> and <code>is-secondary</code> class in it. Secondary text boxes take advantage of Hyperlink Background Color:
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-secondary" placeholder="Secondary..."></input>
+		  </div>
+		  <h3>Unaccented Color</h3>
+		  To Inject a button that takes advantage of Inactive Text and Canvas Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-unaccented</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-unaccented" placeholder="Primary..."></input>
+			  <input class="cpe-input is-unaccented is-secondary" placeholder="Secondary..."></input>
+		  </div>
+		  <h3>Alternate Color</h3>
+		  To Inject a button that takes advantage of Active Title and Active Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alternate</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-alternate" placeholder="Primary..."></input>
+			  <input class="cpe-input is-alternate is-secondary" placeholder="Secondary..."></input>
+		  </div>
+		  <h3>Alert Color</h3>
+		  To Inject a button that takes advantage of Alert Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alert-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-alert-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Pause Color</h3>
+		  To Inject a button that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-pause-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-pause-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Warning Color</h3>
+		  To Inject a button that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-warning-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-warning-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Success Color</h3>
+		  To Inject a button that takes advantage of Success Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-success-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-success-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Progress Color</h3>
+		  To Inject a button that takes advantage of Progress Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-progress-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-progress-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Message Color</h3>
+		  To Inject a button that takes advantage of Message Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-message-color</code> classes in it.
+		  <div style="margin:10px 0 0;">
+			  <input class="cpe-input is-message-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Tabs-->
+			<main class="cpetabs">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Tabs</h2>
+						</header>
+						<article>
+			Tabs can be made by using a ul element of <code>cpe-tabs</code>. Use a li with a class of <code>cpe-tabs__tab</code> which a <code>is-alternate</code> can be used as well for alternation of color. Then inside it, use an anchor or a div with the class <code>cpe-tabs__tab-label</code>
+			<h3>Regular</h3>
+			Following the above procedure will produce these three tabs
+			<div style="margin:10px 0 0">
+				<ul class="cpe-tabs">
+					<li class="cpe-tabs__tab">
+						<div class="cpe-tabs__tab-label">
+							<span>Simple Tab</span>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-unaccented">
+						<div class="cpe-tabs__tab-label">
+							<span>Simple Tab</span>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-alternate">
+						<div class="cpe-tabs__tab-label">
+							<span>Simple Tab</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		<h3>Dropdown Tabs</h3>
+		Tabs can also consist of dropdowns. Follows the same procedure as buttons with dropdowns
+			<div style="margin:10px 0 0">
+				<ul class="cpe-tabs">
+					<li class="cpe-tabs__tab">
+						<div class="cpe-dropdown">
+							<div class="cpe-tabs__tab-label">
+								<span>Dropdown Tab</span>
+							</div>
+							<div class="cpe-dropdown__content is-left-aligned">
+								<ul class="cpe-list is-linked">
+									<li>
+										<a>Item A</a>
+									</li>
+									<li>
+										<a>Item B</a>
+									</li>
+									<li>
+										<a>Item C</a>
+									</li>
+									<li>
+										<a>Item D</a>
+									</li>
+									<li>
+										<a>Item E</a>
+									</li>
+									<li>
+										<a>Item F</a>
+									</li>
+									<li>
+										<a>Item G</a>
+									</li>
+									<li>
+										<a>Item H</a>
+									</li>
+									<li>
+										<a>Item I</a>
+									</li>
+									<li>
+										<a>Item J</a>
+									</li>
+									<li>
+										<a>Item K</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-unaccented">
+						<div class="cpe-dropdown">
+							<div class="cpe-tabs__tab-label">
+								<span>Dropdown Tab</span>
+							</div>
+							<div class="cpe-dropdown__content">
+								<ul class="cpe-list is-linked">
+									<li>
+										<a>Item A</a>
+									</li>
+									<li>
+										<a>Item B</a>
+									</li>
+									<li>
+										<a>Item C</a>
+									</li>
+									<li>
+										<a>Item D</a>
+									</li>
+									<li>
+										<a>Item E</a>
+									</li>
+									<li>
+										<a>Item F</a>
+									</li>
+									<li>
+										<a>Item G</a>
+									</li>
+									<li>
+										<a>Item H</a>
+									</li>
+									<li>
+										<a>Item I</a>
+									</li>
+									<li>
+										<a>Item J</a>
+									</li>
+									<li>
+										<a>Item K</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-alternate">
+						<div class="cpe-dropdown">
+							<div class="cpe-tabs__tab-label">
+								<span>Dropdown Tab</span>
+							</div>
+							<div class="cpe-dropdown__content is-right-aligned">
+								<ul class="cpe-list is-linked">
+									<li>
+										<a>Item A</a>
+									</li>
+									<li>
+										<a>Item B</a>
+									</li>
+									<li>
+										<a>Item C</a>
+									</li>
+									<li>
+										<a>Item D</a>
+									</li>
+									<li>
+										<a>Item E</a>
+									</li>
+									<li>
+										<a>Item F</a>
+									</li>
+									<li>
+										<a>Item G</a>
+									</li>
+									<li>
+										<a>Item H</a>
+									</li>
+									<li>
+										<a>Item I</a>
+									</li>
+									<li>
+										<a>Item J</a>
+									</li>
+									<li>
+										<a>Item K</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3>Selected Tab</h3>
+			In order to have the tab selected, you must add <code>is-current</code> in <code>cpe-tabs__tab</code> class as seen in the example
+			<div style="margin:10px 0 0">
+				<ul class="cpe-tabs">
+					<li class="cpe-tabs__tab is-current">
+						<div class="cpe-tabs__tab-label">
+							<span>Current Tab</span>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-unaccented is-current">
+						<div class="cpe-tabs__tab-label">
+							<span>Current Tab</span>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-alternate is-current">
+						<div class="cpe-tabs__tab-label">
+							<span>Current Tab</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<h3>Linked Tab</h3>
+			Tabs may link to a website as well. Instead of wrapping a span into the <code>cpe-tabs__tab-label</code>, you wrap an anchor tag
+			<div style="margin:10px 0 0">
+				<ul class="cpe-tabs">
+					<li class="cpe-tabs__tab">
+						<div class="cpe-tabs__tab-label">
+							<a href="https://github.com/Awikia">Linked Tab</a>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-unaccented">
+						<div class="cpe-tabs__tab-label">
+							<a href="https://github.com/Awikia">Linked Tab</a>
+						</div>
+					</li>
+					<li class="cpe-tabs__tab is-alternate">
+						<div class="cpe-tabs__tab-label">
+							<a href="https://github.com/Awikia">Linked Tab</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Floating Buttons-->
+			<main class="floatingbuttons">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Floating Buttons</h2>
+						</header>
+						<article>
+
+		You can make floating buttons with the use of <code>cpe-floating-button</code>. Only one icon is allowed
+		<div style="margin:10px 0 0">
+			<button class="cpe-floating-button">
+				<span class="cpe-icon material-icons">
+					star
+				</span>
+		</button>
+	</div>
+		<h3>Button Group</h3>
+		Use <code>cpe-floating-button-group</code> class and wrap floating buttons to make a list of floating buttons. Use <code>is-vertical</code> for column group of floating buttons
+
+				<div style="margin:10px 0 0">
+					<div class="cpe-floating-button-group">
+						<button class="cpe-floating-button">
+				<span class="cpe-icon material-icons">
+					star
+				</span>
+					</button>
+					<button class="cpe-floating-button is-unaccented">
+				<span class="cpe-icon material-icons">
+					edit
+				</span>	
+					</button>
+					<button class="cpe-floating-button is-alternate">
+				<span class="cpe-icon material-icons">
+					description
+				</span>
+					</button>
+					<button class="cpe-floating-button is-alert-color">
+				<span class="cpe-icon material-icons">
+					report
+				</span>
+					</button>
+					<button class="cpe-floating-button is-pause-color">
+				<span class="cpe-icon material-icons">
+					pause
+				</span>
+					</button>
+					<button class="cpe-floating-button is-warning-color">
+				<span class="cpe-icon material-icons">
+					report_problem
+				</span>
+					</button>
+					<button class="cpe-floating-button is-success-color">
+				<span class="cpe-icon material-icons">
+					done
+				</span>
+					</button>
+					<button class="cpe-floating-button is-progress-color">
+				<span class="cpe-icon material-icons">
+					pending
+				</span>
+					</button>
+					<button class="cpe-floating-button is-message-color">
+				<span class="cpe-icon material-icons">
+					info
+				</span>
+					</button>
+				</div>
+				<hr>
+					<div class="cpe-floating-button-group is-vertical">
+						<button class="cpe-floating-button">
+				<span class="cpe-icon material-icons">
+					star
+				</span>
+					</button>
+					<button class="cpe-floating-button is-unaccented">
+				<span class="cpe-icon material-icons">
+					edit
+				</span>
+					</button>
+					<button class="cpe-floating-button is-alternate">
+				<span class="cpe-icon material-icons">
+					description
+				</span>
+					</button>
+					</div>
+					<div class="cpe-floating-button-group is-vertical">
+					<button class="cpe-floating-button is-alert-color">
+				<span class="cpe-icon material-icons">
+					report
+				</span>
+					</button>
+					<button class="cpe-floating-button is-pause-color">
+				<span class="cpe-icon material-icons">
+					pause
+				</span>
+					</button>
+					<button class="cpe-floating-button is-warning-color">
+				<span class="cpe-icon material-icons">
+					report_problem
+				</span>
+					</button>
+					</div>
+					<div class="cpe-floating-button-group is-vertical">
+					<button class="cpe-floating-button is-success-color">
+				<span class="cpe-icon material-icons">
+					done
+				</span>
+					</button>
+					<button class="cpe-floating-button is-progress-color">
+				<span class="cpe-icon material-icons">
+					pending
+				</span>
+					</button>
+					<button class="cpe-floating-button is-message-color">
+				<span class="cpe-icon material-icons">
+					info
+				</span>
+					</button>
+				</div>
+
+			</div>
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Banner Notifications-->
+			<main class="banners">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Banner Notifications</h2>
+						</header>
+						<article>
+
+			Banners can be made by the use of <code>cpe-banner-notification</code> class.
+	<div class="cpe-banner-notification__container">
+		<div class="cpe-banner-notification is-message">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					info
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 1.</span>
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+		</div>
+		<div class="cpe-banner-notification is-progress">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					pending
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 2 with very long content. Lorem ipsum dolor sit amet,				consectetur adipiscing elit. Vestibulum scelerisque ullamcorper sodales. Interdum et				malesuada fames ac ante ipsum primis in faucibus.</span>
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+	
+		</div>
+		<div class="cpe-banner-notification is-success">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					done
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 3.</span>
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+	
+		</div>
+		<div class="cpe-banner-notification is-warning">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					report_problem
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 4 with very long content. Lorem ipsum dolor sit amet,</span>
+
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+			</span>
+		</div>
+		<div class="cpe-banner-notification is-pause">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					pause
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 5.</span>
+
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+			</span>
+		</div>
+		<div class="cpe-banner-notification is-alert">
+			<div class="cpe-banner-notification__icon">	
+				<span class="cpe-icon cpe-icon-small material-icons">
+					report
+				</span>
+			</div>
+			<span class="cpe-banner-notification__text">					Stacked notification 6 with very long content. Lorem ipsum dolor sit amet,				consectetur adipiscing elit. Vestibulum scelerisque ullamcorper sodales. Interdum et				malesuada fames ac ante ipsum primis in faucibus.</span>
+			  <span class="cpe-banner-notification__close">
+				<span class="cpe-icon cpe-icon-tiny cpe-icon-large material-icons">close</span>
+			  </span>
+		</div>
+	</div>
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Toggle Inputs-->
+			<main class="toggleinputs">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Toggle Inputs</h2>
+						</header>
+						<article>
+
+	Toggle is a control that is used to quickly switch between two possible states. All toggles require a label due to fact that styling inputs is tricky cross browser. All toggle inputs should have a unique id for label to work correctly
+			<div style="margin:10px 0 0;">    
+				<input class="cpe-toggle__input" id="toggleA" type="checkbox">
+				<label class="cpe-toggle__label" for="toggleA">      Slide me if you wish    </label>  
+			</div>
+			<div style="margin:10px 0 0;">    
+				<input class="cpe-toggle__input" id="toggleB" type="checkbox" checked>
+				<label class="cpe-toggle__label" for="toggleB">      I'm checked by default    </label>  
+			</div>
+			<h3>Disabled Toggles</h3>
+			To make toggles disabled, put the <code>disabled</code> attribute on both the input and the label as seen in the following examples
+			<div style="margin:10px 0 0;">    
+				<input class="cpe-toggle__input" id="toggleC" type="checkbox" disabled>
+				<label class="cpe-toggle__label is-disabled" for="toggleC" disabled>      You can't slide me </label>  
+			</div>
+			<div style="margin:10px 0 0;">    
+				<input class="cpe-toggle__input" id="toggleD" type="checkbox" checked disabled>
+				<label class="cpe-toggle__label is-disabled" for="toggleD" disabled>      I'm checked by default though you can't slide me    </label>  
+			</div>
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Settings-->
+			<main class="settings">
+				<div class="settings_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Settings</h2>
+						</header>
+						<article>
+							<div class="fieldset AppTheme">
+								<fieldset>
+								<h2>
+								<span translate="no" class="cpe-icon material-icons">palette</span>
+								App Theme
+								</h2>
+								<input type="radio" name="AppTheme" id="AppTheme01" onclick="colortheme('match-parent','light','match-parent','match-parent','duo')"><label for="AppTheme01">Automatic</label>
+								<br>
+								<input type="radio" name="AppTheme" id="AppTheme02" onclick="colortheme('match-parent','dark','match-parent','match-parent','duo')"><label for="AppTheme02">Automatic (Dark)</label>
+								<br>
+								<input type="radio" name="AppTheme" id="AppTheme03" onclick="colortheme('match-parent','light','match-parent','match-parent','solo')"><label for="AppTheme03">Light</label>
+								<br>
+								<input type="radio" name="AppTheme" id="AppTheme04" onclick="colortheme('match-parent','dark','match-parent','match-parent','solo')"><label for="AppTheme04">Dark</label>
+								<div>
+								<input type="radio" name="AppTheme" id="AppTheme05"><label for="AppTheme05">Custom</label>
+								</div>
+								</fieldset>
+								<div style="margin:5px 0;"><small>This setting sets CPE Documentation's device theme</small></div>
+							</div>
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+		</div>
+
+	</container>
+
+	</body>
+</html>
+<head>
+<title>CPE Language Documentation</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="CPE.css"> <!-- Main CSS -->
+<link rel="stylesheet" type="text/css" href="Mpisto.css"> <!-- Main CSS -->
+<link rel="stylesheet" type="text/css" href="VisualStyles.css"> <!-- Main CSS -->
+<link rel="stylesheet" type="text/css" href="VisualStyles_Extra.css"> <!-- Main CSS -->
+</head>
+
+
+<script src="jQuery.js"></script>
+<script src="UserAgents.js"></script>
+<script src="Chroma.js"></script>
+<script src="Mpisto.js"></script>
+<script src="Themes.js"></script>
+<script src="Debug.js"></script>
+
+<script>
+// Pollyfils for Options.html
+
+// Filters
+function HCa1() {
+    var x = document.getElementById("Handler");
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterE", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCb1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterA") == -1) {
+        x.className += " filterA";
+    }
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterE", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCc1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterB") == -1) {
+        x.className += " filterB";
+    }
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterE", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCd1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterC") == -1) {
+        x.className += " filterC";
+    }
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterE", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCe1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterD") == -1) {
+        x.className += " filterD";
+    }
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterE", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCf1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterE") == -1) {
+        x.className += " filterE";
+    }
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterF", "");
+}
+
+function HCg1() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("filterF") == -1) {
+        x.className += " filterF";
+    }
+        x.className = x.className.replace(" filterA", "");
+        x.className = x.className.replace(" filterB", "");
+        x.className = x.className.replace(" filterC", "");
+        x.className = x.className.replace(" filterD", "");
+        x.className = x.className.replace(" filterE", "");
+}
+
+
+// Restore High Contrast
+
+// High Contast Themes
+function BarSwitch() {
+    var x = document.getElementById("Handler");
+    if (x.className.indexOf("bar-hidden") == -1) {
+        x.className += " bar-hidden";
+    } else {
+        x.className = x.className.replace(" bar-hidden", "");
+    }
+}
+
+
+
+
+
+
+
+
+/* Mobile Only CSS */
+if (navigator.userAgent.match("Mobile")) {
+document.getElementById("Handler").className += " phone"
+}
+
+
+/* Dropdown
+function dropFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+*/
+</script>
+
+
+<!--
+    <div class="cpe-dropdown">
+      <a class="link">Wikis</a>
+      <div class="cpe-dropdown-content">
+        <ul class="cpe-list cpe-is-linked">
+        </ul>
+      </div>
+    </div>
+-->
+
+
+<!-- Past Notifications
+
+           <li class="notification reply">
+           <a>
+           <div class="wrapper">
+           <img class="mpisto-avatar" src="Zekzphire.png"></img><div><h3>Improve your viewing experience with High Contrast</h3> <br><h6>By Zekzphire<time>26 Feb 2018</time></h6></div>
+           </div>
+           </a>
+           </li>
+           
+           <li class="notification">
+           <a>
+           <div class="wrapper">
+           <img class="mpisto-avatar" src="HM100.png"></img><div><h3>Working with wikis</h3> <br><h6>By HM100<time>24 Feb 2018</time></h6></div>
+           </div>
+           </a>
+           </li>
+
+-->

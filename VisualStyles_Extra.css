@@ -1,0 +1,187 @@
+﻿/* App specific CSS for Visual Styles */
+
+/* High Contrast Styling */
+.visualmode-contrast body {
+--page-opacity:1;
+}
+
+.visualmode-contrast .proc_page .upper span:hover, 
+.visualmode-contrast .proc_page .header.item:hover {
+	background-color:var(--highlight-background-color);
+	color:var(--highlight-text-background-color);
+}
+
+.visualmode-contrast .tabs a:hover {
+	background-color:var(--highlight-text-background-color);
+	border-color:var(--highlight-background-color);
+	color:var(--highlight-background-color);
+}
+
+.visualmode-contrast [page="buttons"] .tabs .buttons,
+.visualmode-contrast [page="buttongroups"] .tabs .buttongroups,
+.visualmode-contrast [page="dropdowns"] .tabs .dropdowns,
+.visualmode-contrast [page="textboxes"] .tabs .textboxes,
+.visualmode-contrast [page="cpetabs"] .tabs .cpetabs,
+.visualmode-contrast [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualmode-contrast [page="banners"] .tabs .banners,
+.visualmode-contrast [page="toggleinputs"] .tabs .toggleinputs,
+.visualmode-contrast [page="settings"] .tabs .settings,
+.visualmode-contrast .tabs .cpe-dropdown:focus > a,
+.visualmode-contrast .tabs .cpe-dropdown:focus-within > a {
+	background-color:var(--highlight-background-color);
+	border-color:var(--highlight-background-color);
+	color:var(--highlight-text-background-color);
+}
+
+.visualmode-contrast .settings_page .upper,
+.visualmode-contrast .proc_page footer {
+	background-color:transparent;
+}
+
+/** General **/
+/* Standard */
+.visualstyle-general .tabs a:hover {
+	background-color:var(--hyperlink-background-color);
+	border-color:var(--hyperlink-background-color);
+	color:var(--hyperlink-foreground-color);
+}
+
+.visualstyle-general [page="buttons"] .tabs .buttons,
+.visualstyle-general [page="buttongroups"] .tabs .buttongroups,
+.visualstyle-general [page="dropdowns"] .tabs .dropdowns,
+.visualstyle-general [page="textboxes"] .tabs .textboxes,
+.visualstyle-general [page="cpetabs"] .tabs .cpetabs,
+.visualstyle-general [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualstyle-general [page="banners"] .tabs .banners,
+.visualstyle-general [page="toggleinputs"] .tabs .toggleinputs,
+.visualstyle-general [page="settings"] .tabs .settings,
+.visualstyle-general .tabs .cpe-dropdown:focus > a,
+.visualstyle-general .tabs .cpe-dropdown:focus-within > a {
+	background-color:var(--hyperlink-background-color-hover);
+	border-color:var(--hyperlink-background-color-hover);
+	color:var(--hyperlink-foreground-color-inverted);
+}
+
+
+/* High Contrast */
+.visualstyle-general.visualmode-contrast .proc_page .upper span:hover {
+	background-color:var(--hyperlink-background-color);
+	color:var(--hyperlink-foreground-color);
+}
+
+/** Basic **/
+/* Standard */
+.visualstyle-basic .tabs a {
+	border-color:var(--luna-foreground-color);
+	color:var(--luna-foreground-color);
+}
+
+.visualstyle-basic .tabs a:hover {
+	color:var(--luna-foreground-color-hover);
+	border-color:var(--luna-foreground-color-hover);
+	background-color:rgba(var(--luna-hyperlink-background-color-rgb),0.2);
+}
+
+.visualstyle-basic [page="buttons"] .tabs .buttons,
+.visualstyle-basic [page="buttongroups"] .tabs .buttongroups,
+.visualstyle-basic [page="dropdowns"] .tabs .dropdowns,
+.visualstyle-basic [page="textboxes"] .tabs .textboxes,
+.visualstyle-basic [page="cpetabs"] .tabs .cpetabs,
+.visualstyle-basic [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualstyle-basic [page="banners"] .tabs .banners,
+.visualstyle-basic [page="toggleinputs"] .tabs .toggleinputs,
+.visualstyle-basic [page="settings"] .tabs .settings,
+.visualstyle-basic .tabs .cpe-dropdown:focus > a,
+.visualstyle-basic .tabs .cpe-dropdown:focus-within > a {
+	color:var(--luna-foreground-color-hover);
+	border-color:var(--luna-foreground-color-hover);
+	background-color:rgba(var(--luna-hyperlink-background-color-rgb),0.4);
+}
+
+.visualstyle-basic .proc_page .upper span:hover, 
+.visualstyle-basic .proc_page .header.item:hover {
+	background-color:var(--hyperlink-fadeout-color);
+}
+
+
+/* High Contrast */
+.visualstyle-basic.visualmode-contrast .proc_page .upper span:hover {
+	background-color:var(--highlight-background-color);
+	color:var(--highlight-text-background-color);
+}
+
+.visualstyle-basic.visualmode-contrast .tabs a {
+	background-clip:padding-box;
+	background-color:var(--canvas-background-color);
+	border-color:transparent;
+	color:var(--canvas-text-background-color);
+}
+
+.visualstyle-basic.visualmode-contrast .tabs a:hover {
+	background-color:var(--canvas-secondary-background-color);
+	border-color:var(--canvas-text-secondary-background-color);
+	color:var(--canvas-text-secondary-background-color);
+}
+
+.visualstyle-basic.visualmode-contrast [page="buttons"] .tabs .buttons,
+.visualstyle-basic.visualmode-contrast [page="buttongroups"] .tabs .buttongroups,
+.visualstyle-basic.visualmode-contrast [page="dropdowns"] .tabs .dropdowns,
+.visualstyle-basic.visualmode-contrast [page="textboxes"] .tabs .textboxes,
+.visualstyle-basic.visualmode-contrast [page="cpetabs"] .tabs .cpetabs,
+.visualstyle-basic.visualmode-contrast [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualstyle-basic.visualmode-contrast [page="banners"] .tabs .banners,
+.visualstyle-basic.visualmode-contrast [page="toggleinputs"] .tabs .toggleinputs,
+.visualstyle-basic.visualmode-contrast [page="settings"] .tabs .settings,
+.visualstyle-basic.visualmode-contrast .tabs .cpe-dropdown:focus > a,
+.visualstyle-basic.visualmode-contrast .tabs .cpe-dropdown:focus-within > a {
+	background-color:var(--highlight-background-color);
+	border-color:var(--canvas-text-secondary-background-color);
+	color:var(--highlight-text-background-color);
+}
+
+/** Simple **/
+/* Standard */
+.visualstyle-simple .tabs a:hover,
+.visualstyle-simple [page="buttons"] .tabs .buttons,
+.visualstyle-simple [page="buttongroups"] .tabs .buttongroups,
+.visualstyle-simple [page="dropdowns"] .tabs .dropdowns,
+.visualstyle-simple [page="textboxes"] .tabs .textboxes,
+.visualstyle-simple [page="cpetabs"] .tabs .cpetabs,
+.visualstyle-simple [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualstyle-simple [page="banners"] .tabs .banners,
+.visualstyle-simple [page="toggleinputs"] .tabs .toggleinputs,
+.visualstyle-simple [page="settings"] .tabs .settings,
+.visualstyle-simple .tabs .cpe-dropdown:focus > a,
+.visualstyle-simple .tabs .cpe-dropdown:focus-within > a {
+	background-color:rgba(var(--canvas-secondary-background-color-hover-rgb),var(--mica-opacity-2));
+	color:var(--canvas-secondary-foreground-color-inverted);
+	animation:none;
+	border-color:rgba(var(--canvas-foreground-color-rgb),0.2);
+}
+
+/* High Contrast */
+.visualstyle-simple.visualmode-contrast .proc_page .upper span:hover, 
+.visualstyle-simple.visualmode-contrast .proc_page .header.item:hover {
+	background-color:var(--canvas-foreground-color);
+	color:var(--canvas-background-color);
+}
+
+.visualstyle-simple.visualmode-contrast .tabs a:hover,
+.visualstyle-simple.visualmode-contrast [page="buttons"] .tabs .buttons,
+.visualstyle-simple.visualmode-contrast [page="buttongroups"] .tabs .buttongroups,
+.visualstyle-simple.visualmode-contrast [page="dropdowns"] .tabs .dropdowns,
+.visualstyle-simple.visualmode-contrast [page="textboxes"] .tabs .textboxes,
+.visualstyle-simple.visualmode-contrast [page="cpetabs"] .tabs .cpetabs,
+.visualstyle-simple.visualmode-contrast [page="floatingbuttons"] .tabs .floatingbuttons,
+.visualstyle-simple.visualmode-contrast [page="banners"] .tabs .banners,
+.visualstyle-simple.visualmode-contrast [page="toggleinputs"] .tabs .toggleinputs,
+.visualstyle-simple.visualmode-contrast [page="settings"] .tabs .settings,
+.visualstyle-simple.visualmode-contrast .tabs .cpe-dropdown:focus > a,
+.visualstyle-simple.visualmode-contrast .tabs .cpe-dropdown:focus-within > a {
+	background-color:var(--canvas-secondary-foreground-color);
+	color:var(--canvas-secondary-background-color);
+	box-shadow:none;
+	animation:none;
+	border-color:rgba(var(--canvas-secondary-background-color-rgb),0.5);
+}
+
