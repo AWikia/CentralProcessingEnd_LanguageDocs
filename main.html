@@ -88,6 +88,8 @@
 			<div class="tabs-with-page">
 			<header class="tabs">
 				<div class="lunalevit"></div>
+					<a class="home has-icon" onclick="Tab9()">Introduction</a>
+				<hr>
 				<div class="items">
 					<a class="buttons has-icon" onclick="Tab0()">Buttons</a>
 					<a class="buttongroups has-icon" onclick="Tab1()">Button Groups</a>
@@ -97,10 +99,39 @@
 					<a class="floatingbuttons has-icon" onclick="Tab5()">Floating Buttons</a>
 					<a class="banners has-icon" onclick="Tab6()">Banner Notifications</a>
 					<a class="toggleinputs has-icon" onclick="Tab7()">Toggle Inputs</a>
+					<a class="tables has-icon" onclick="TabA()">Tables</a>
 				</div>
 				<div class="separator"></div>
 				<a class="settings has-icon" onclick="Tab8()">Settings</a>
 			</header>
+			<!--Home-->
+			<main class="home">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Introduction</h2>
+						</header>
+						<article>
+		 <h2>CPE Language Documentation</h2>
+		 <h3>What is the Central Processing End Language?</h3>
+		 Central Processing End Language, also known as the CPE Language and the Evelution Design System is an open source Visual Language framework that is used as the base of later Web Qore releases and is the main framework used accross Evelution. This framework and will be constantly updated every four months in the <a href="https://github.com/AWikia/CentralProcessingEnd_Language">CPE Language GitHub repo</a> and every time an Evelution release comes out.
+		 <h3>What are the goals of Central Processing End Language?</h3>
+		 CPE Language is an alternative to the various other design systems we've used in other projects before such as Web Qore (Then known as Mpisto War 2018 and Ryneeeel Zekzphire Grooze) and the defunct Ryneeeel Zekzphire Zentral. The main goals are to:
+		 <ul>
+			<li>Provide as much quality as needed</li>
+			<li>Evolve as the time passes in order to compete with more modern frameworks and operating system designs</li>
+			<li>Experiment as much as needed inside the Evelution Skin in order to gather feedback from other users. This means that some concepts may never make into CPE Language</li>
+		 </ul>
+		 <h3>Is Central Processing End Language made exclusively for the Evelution ecosystem?</h3>
+		Of course not. Anyone is able to use this framework to create their projects and is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 License</a>. Contributions to this project can be done by sending a pull request to the <a href="https://github.com/AWikia/SkinEvelution">SkinEvelution GitHub repo</a> as changes approved will go into Evelution first
+
+
+						</article>
+
+					</section>
+				</div>
+			</main>
 			<!--Processes-->
 			<main class="buttons">
 				<div class="settings_page doc_page">
@@ -499,8 +530,56 @@
 			  <a href="https://github.com/AWikia" class="cpe-button is-text is-message-color">
 			  <span>Frameless Button</span></a>
 		  </div>
+		  <h3>Squared Buttons</h3>
+		  To Inject a button that has a square size, use an element and put the <code>cpe-button</code> and <code>is-square</code> classes in it. Opitionally, other classes like the <code>is-secondary</code>, <code>is-tertiary</code> or <code>is-text</code> ones may be added as well.
 		  
-
+		  <div style="margin:10px 0 0;">
+						<button class="cpe-button is-square">
+				<span class="cpe-icon material-icons">
+					star
+				</span>
+					</button>
+					<button class="cpe-button is-square is-unaccented">
+				<span class="cpe-icon material-icons">
+					edit
+				</span>	
+					</button>
+					<button class="cpe-button is-square is-alternate">
+				<span class="cpe-icon material-icons">
+					description
+				</span>
+					</button>
+					<button class="cpe-button is-square is-alert-color">
+				<span class="cpe-icon material-icons">
+					report
+				</span>
+					</button>
+					<button class="cpe-button is-square is-pause-color">
+				<span class="cpe-icon material-icons">
+					pause
+				</span>
+					</button>
+					<button class="cpe-button is-square is-warning-color">
+				<span class="cpe-icon material-icons">
+					report_problem
+				</span>
+					</button>
+					<button class="cpe-button is-square is-success-color">
+				<span class="cpe-icon material-icons">
+					done
+				</span>
+					</button>
+					<button class="cpe-button is-square is-progress-color">
+				<span class="cpe-icon material-icons">
+					pending
+				</span>
+					</button>
+					<button class="cpe-button is-square is-message-color">
+				<span class="cpe-icon material-icons">
+					info
+				</span>
+					</button>
+		  </div>
 
 						</article>
 
@@ -516,7 +595,7 @@
 							<h2>Button Groups</h2>
 						</header>
 						<article>
-	You can make a group of buttons as well. You can mix colors like having altenate and regular button color but not types (Having text and primary button is prohibited althought button preview in theme designer does it)
+	You can make a group of buttons as well. You can mix colors like having altenate and regular button color but not types (Having text and primary button is not recommended althought button preview in theme designer does it)
 		<h3>Regular</h3>
 		You add <code>cpe-button-group</code> and series of <code>cpe-button</code>
 			<div style="margin:10px 0 0">
@@ -624,7 +703,7 @@
 				</div>
 			</div>
 		<h3>Multiple Button Groups</h3>
-		It is also possible to have nested button groups. Just wrap all <code>cpe-button-group</code> elements into a <code>cpe-button-groups</code> as seen in the following example
+		It is also possible to have nested button groups. Just wrap all <code>cpe-button-group</code> elements into a <code>cpe-button-groups</code> element as seen in the following example
 			<div style="margin:10px 0 0">
 				<div class="cpe-button-groups">
 					<div class="cpe-button-group">
@@ -1723,46 +1802,52 @@
 			  <input class="cpe-input is-secondary" placeholder="Secondary..."></input>
 		  </div>
 		  <h3>Unaccented Color</h3>
-		  To Inject a button that takes advantage of Inactive Text and Canvas Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-unaccented</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
+		  To Inject a text input that takes advantage of Inactive Text and Canvas Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-unaccented</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-unaccented" placeholder="Primary..."></input>
 			  <input class="cpe-input is-unaccented is-secondary" placeholder="Secondary..."></input>
 		  </div>
 		  <h3>Alternate Color</h3>
-		  To Inject a button that takes advantage of Active Title and Active Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alternate</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
+		  To Inject a text input that takes advantage of Active Title and Active Text Background Colors instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alternate</code> classes in it. Opitionally, the <code>is-secondary</code> class may be added as well.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-alternate" placeholder="Primary..."></input>
 			  <input class="cpe-input is-alternate is-secondary" placeholder="Secondary..."></input>
 		  </div>
 		  <h3>Alert Color</h3>
-		  To Inject a button that takes advantage of Alert Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alert-color</code> classes in it.
+		  To Inject a text input that takes advantage of Alert Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-alert-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-alert-color" placeholder="Primary/Seciondary..."></input>
 		  </div>
 		  <h3>Pause Color</h3>
-		  To Inject a button that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-pause-color</code> classes in it.
+		  To Inject a text input that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-pause-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-pause-color" placeholder="Primary/Seciondary..."></input>
 		  </div>
 		  <h3>Warning Color</h3>
-		  To Inject a button that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-warning-color</code> classes in it.
+		  To Inject a text input that takes advantage of Pause Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-warning-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-warning-color" placeholder="Primary/Seciondary..."></input>
 		  </div>
 		  <h3>Success Color</h3>
-		  To Inject a button that takes advantage of Success Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-success-color</code> classes in it.
+		  To Inject a text input that takes advantage of Success Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-success-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-success-color" placeholder="Primary/Seciondary..."></input>
 		  </div>
 		  <h3>Progress Color</h3>
-		  To Inject a button that takes advantage of Progress Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-progress-color</code> classes in it.
+		  To Inject a text input that takes advantage of Progress Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-progress-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-progress-color" placeholder="Primary/Seciondary..."></input>
 		  </div>
 		  <h3>Message Color</h3>
-		  To Inject a button that takes advantage of Message Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-message-color</code> classes in it.
+		  To Inject a text input that takes advantage of Message Background Color instead of Highlight and Hyperlink, use an element and put the <code>cpe-input</code> and <code>is-message-color</code> classes in it.
 		  <div style="margin:10px 0 0;">
 			  <input class="cpe-input is-message-color" placeholder="Primary/Seciondary..."></input>
+		  </div>
+		  <h3>Textarea Text Input</h3>
+		  It is also possible to use the <code>cpe-input</code> class into a textarea element. As with all other textarea elements, it will use a monospaced font by default
+		  <div style="margin:10px 0 0;">
+			  <textarea style="width:100px; height:100px; resize:none;" class="cpe-input" placeholder="Type something here..."></textarea>
+			  <textarea style="width:100px; height:100px; resize:none;" class="cpe-input is-secondary" placeholder="Type something here..."></textarea>
 		  </div>
 
 						</article>
@@ -2243,6 +2328,174 @@
 				<label class="cpe-toggle__label is-disabled" for="toggleD" disabled>      I'm checked by default though you can't slide me    </label>  
 			</div>
 
+
+						</article>
+
+					</section>
+				</div>
+			</main>
+			<!--Tables-->
+			<main class="tables">
+				<div class="settings_page doc_page">
+					<section>
+						<div class="lunalevit"></div>
+						<header class="upper">
+							<h2>Tables</h2>
+						</header>
+						<article>
+		 In CPE, you can use tables with <code>wikitable</code> and <code>fancytable</code> class.
+			<h3>Wikitable Tables</h3>
+				Put the <code>wikitable</code> class to the <code>table</code> element. This creates a basic table styling reminiscent of the MediaWiki table styling with translucent background on special-colored cells
+			<div style="margin:10px 0 0;">    
+				<table class="wikitable" style="display:inline-table;">
+					<tbody>
+						<tr>
+							<th>Name</th>
+							<th>Surname</th>
+							<th>Gender</th>
+						</tr>
+						<tr>
+							<td>John</th>
+							<td>Doe</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Carrina</th>
+							<td>Smith</th>
+							<td>Female</th>
+						</tr>
+						<tr>
+							<td>Albert</th>
+							<td>Williams</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Camile</th>
+							<td>Shay</th>
+							<td>Female</th>
+						</tr>
+						<tr>
+							<td>Tom</th>
+							<td>Edisson</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Erica</th>
+							<td>Granger</th>
+							<td>Female</th>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="wikitable" style="display:inline-table;">
+					<tbody>
+						<tr>
+							<th>Name</th>
+							<th>Color</th>
+						</tr>
+						<tr>
+							<td>Alert</th>
+							<td class="is-alert-color">Red</th>
+						</tr>
+						<tr>
+							<td>Pause</th>
+							<td class="is-pause-color">Orange</th>
+						</tr>
+						<tr>
+							<td>Warning</th>
+							<td class="is-warning-color">Yellow</th>
+						</tr>
+						<tr>
+							<td>Success</th>
+							<td class="is-Success-color">Green</th>
+						</tr>
+						<tr>
+							<td>Progress</th>
+							<td class="is-progress-color">Blue</th>
+						</tr>
+						<tr>
+							<td>Message</th>
+							<td class="is-message-color">Gray</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3>Fancytable Tables</h3>
+				Put the <code>fancytable</code> class to the <code>table</code> element. This creates a table styling with a small shadow, highlight-colored table headers and opaque background on special-colored cells
+			<div style="margin:10px 0 0;">    
+				<table class="fancytable" style="display:inline-table;">
+					<tbody>
+						<tr>
+							<th>Name</th>
+							<th>Surname</th>
+							<th>Gender</th>
+						</tr>
+						<tr>
+							<td>John</th>
+							<td>Doe</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Carrina</th>
+							<td>Smith</th>
+							<td>Female</th>
+						</tr>
+						<tr>
+							<td>Albert</th>
+							<td>Williams</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Camile</th>
+							<td>Shay</th>
+							<td>Female</th>
+						</tr>
+						<tr>
+							<td>Tom</th>
+							<td>Edisson</th>
+							<td>Male</th>
+						</tr>
+						<tr>
+							<td>Erica</th>
+							<td>Granger</th>
+							<td>Female</th>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="fancytable" style="display:inline-table;">
+					<tbody>
+						<tr>
+							<th>Name</th>
+							<th>Color</th>
+						</tr>
+						<tr>
+							<td>Alert</th>
+							<td class="is-alert-color">Red</th>
+						</tr>
+						<tr>
+							<td>Pause</th>
+							<td class="is-pause-color">Orange</th>
+						</tr>
+						<tr>
+							<td>Warning</th>
+							<td class="is-warning-color">Yellow</th>
+						</tr>
+						<tr>
+							<td>Success</th>
+							<td class="is-Success-color">Green</th>
+						</tr>
+						<tr>
+							<td>Progress</th>
+							<td class="is-progress-color">Blue</th>
+						</tr>
+						<tr>
+							<td>Message</th>
+							<td class="is-message-color">Gray</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 						</article>
 

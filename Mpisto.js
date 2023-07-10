@@ -32,7 +32,7 @@
 		}
 		document.getElementById("AppTheme" + ['01','02','03','04','05'][ ['auto','auto-dark','light','dark','custom'].indexOf(active_tm_theme) ]).checked=true;
 		/* Default Page */
-		$('body').attr("page",  "buttons");
+		$('body').attr("page",  "home");
 
 })();
 
@@ -74,4 +74,12 @@ function Tab7() {
 
 function Tab8() {
 		$('body').attr("page", "settings");
+}
+
+function Tab9() {
+		$('body').attr("page", "home");
+}
+
+function TabA() {
+		$('body').attr("page", "tables");
 }

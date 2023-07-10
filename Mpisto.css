@@ -768,6 +768,7 @@ main {
     box-shadow:var(--threeD-shadow-active);
 }
 
+[page="home"] .tabs .home,
 [page="buttons"] .tabs .buttons,
 [page="buttongroups"] .tabs .buttongroups,
 [page="dropdowns"] .tabs .dropdowns,
@@ -776,6 +777,7 @@ main {
 [page="floatingbuttons"] .tabs .floatingbuttons,
 [page="banners"] .tabs .banners,
 [page="toggleinputs"] .tabs .toggleinputs,
+[page="tables"] .tabs .tables,
 [page="settings"] .tabs .settings,
 .tabs .cpe-dropdown:focus > a,
 .tabs .cpe-dropdown:focus-within > a {
@@ -792,6 +794,10 @@ main {
 
 .tabs .search:before {
 	content:"search";
+}
+
+.tabs .home:before {
+	content:"home";
 }
 
 .tabs .buttons:before {
@@ -824,6 +830,10 @@ main {
 
 .tabs .toggleinputs:before {
 	content:"toggle_on";
+}
+
+.tabs .tables:before {
+	content:"table";
 }
 
 
@@ -868,6 +878,7 @@ line-height:16px;
 }
 
 /* Main Content */
+[page="home"] main.home,
 [page="buttons"] main.buttons,
 [page="buttongroups"] main.buttongroups,
 [page="dropdowns"] main.dropdowns,
@@ -876,6 +887,7 @@ line-height:16px;
 [page="floatingbuttons"] main.floatingbuttons,
 [page="banners"] main.banners,
 [page="toggleinputs"] main.toggleinputs,
+[page="tables"] main.tables,
 [page="settings"] main.settings {
 	display:flex;
 	flex:1;
@@ -898,6 +910,10 @@ line-height:16px;
 	user-select:text;
 	-webkit-user-select:text;
 	-moz-user-select:text;
+}
+
+.doc_page article a:hover {
+	--hyperlink-decoration:underline;
 }
 
 .proc_page section,
