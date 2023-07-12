@@ -1651,8 +1651,8 @@
 				</div>
 			</div>
 		</div>
-		<h3>2 levels</h3>
-		Dropdowns may have 2-levels. Inside a dropdown-link, you must use the <code>cpe-dropdown-level-2</code>. And another div with the class <code>cpe-dropdown-level-2__content</code>, then following the same procedures as the level 1 version minus this one. Note that the 2nd level menu is aligned to the top of 1st level dropdown by default, but it doesn"t work for shorter list so we need to add class <code>is-sticked-to-parent</code> to elements that contains shorter level 2 menu. Note that scrolling version and thick shadows are not recommended.
+		<h3>2+ levels</h3>
+		Dropdowns may have 2 or more levels. Inside a dropdown-link, you must use the <code>cpe-dropdown-level-nested</code>. And another div with the class <code>cpe-dropdown-level-nested__content</code>, then following the same procedures as the level 1 version minus this one. Note that the 2nd level menu is aligned to the top of 1st level dropdown by default, but it doesn"t work for shorter list so we need to add class <code>is-sticked-to-parent</code> to elements that contains shorter level 2 menu. Note that scrolling version and thick shadows are not recommended.
 		<div style="margin:10px 0 0;">
 			<div class="cpe-dropdown is-flipped">
 				<div class="cpe-button"><span>Advanced Dropdown</span>
@@ -1662,13 +1662,13 @@
 				</div>
 				<div class="cpe-dropdown__content is-not-scrollable">
 					<ul class="cpe-list is-linked">
-						<li class="cpe-dropdown-level-2">
+						<li class="cpe-dropdown-level-nested">
 							<a><span>Item A</span>
 								<span class="cpe-icon cpe-icon-tiny cpe-icon-large cpe-dropdown-chevron material-icons">
 									expand_more
 								</span>
 							</a>
-							<div class="cpe-dropdown-level-2__content">
+							<div class="cpe-dropdown-level-nested__content">
 								<ul class="cpe-list is-linked">
 									<li>
 										<a>Item B</a>
@@ -1691,13 +1691,13 @@
 						<li>
 							<a>Item G</a>
 						</li>
-						<li class="cpe-dropdown-level-2 is-sticked-to-parent">
+						<li class="cpe-dropdown-level-nested is-sticked-to-parent">
 							<a><span>Item H</span>
 								<span class="cpe-icon cpe-icon-tiny cpe-icon-large cpe-dropdown-chevron material-icons">
 									expand_more
 								</span>
 							</a>
-							<div class="cpe-dropdown-level-2__content">
+							<div class="cpe-dropdown-level-nested__content">
 								<ul class="cpe-list is-linked">
 									<li>
 										<a>Item I</a>
