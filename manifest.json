@@ -1,6 +1,7 @@
 ﻿{
     "name": "Central Processing End Language Documentation",
     "short_name": "CPE Language Documentaion",
+	"display": "standalone",
     "icons": [
         {
             "sizes": "114x114",
@@ -114,7 +115,7 @@
 		"label": "Toggle Inputs Page"
 	  },	  
 	  {
-		"src": "Screenshots/Screenshot04.png",
+		"src": "Screenshots/Screenshot09.png",
 		"sizes": "768x600",
 		"type": "image/png",
 		"form_factor": "narrow",
@@ -184,7 +185,7 @@
 		"label": "Toggle Inputs Page"
 	  },	  
 	  {
-		"src": "Screenshots/Screenshot04_wide.png",
+		"src": "Screenshots/Screenshot09_wide.png",
 		"sizes": "1366x800",
 		"type": "image/png",
 		"form_factor": "wide",
